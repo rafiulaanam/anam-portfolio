@@ -13,12 +13,12 @@ const ClientReviews = () => {
         <div class="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://i.ibb.co/4FyW2KN/moriam.jpg"
             class="h-16 w-16 rounded-full object-cover"
           />
 
           <div>
-            <div class="flex justify-center gap-0.5 text-green-500">
+            <div class="flex  gap-0.5 text-green-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -71,13 +71,12 @@ const ClientReviews = () => {
               </svg>
             </div>
 
-            <p class="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p class="mt-1 text-lg font-medium text-gray-700">Jannatul Ferdous Ema</p>
           </div>
         </div>
 
         <p class="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+        Working with this web developer was a fantastic experience! They were professional, knowledgeable, and always available to answer any questions I had. They were able to bring my vision to life and create a website that exceeded my expectations. I highly recommend them!
         </p>
       </blockquote>
 
@@ -85,12 +84,12 @@ const ClientReviews = () => {
         <div class="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://i.ibb.co/nDkyXbr/ri.jpg"
             class="h-16 w-16 rounded-full object-cover"
           />
 
           <div>
-            <div class="flex justify-center gap-0.5 text-green-500">
+            <div class="flex  gap-0.5 text-green-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -143,13 +142,12 @@ const ClientReviews = () => {
               </svg>
             </div>
 
-            <p class="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p class="mt-1 text-lg font-medium text-gray-700">Ri Junior</p>
           </div>
         </div>
 
         <p class="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+        I had a great experience working with this web developer. They were able to turn around my project quickly and efficiently, and the end result was a website that looked amazing and worked perfectly. They were also very communicative throughout the process and made sure I was happy with the final product. I would definitely work with them again!
         </p>
       </blockquote>
 
@@ -157,12 +155,12 @@ const ClientReviews = () => {
         <div class="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://i.ibb.co/L1MMQnY/shah.jpg"
             class="h-16 w-16 rounded-full object-cover"
           />
 
           <div>
-            <div class="flex justify-center gap-0.5 text-green-500">
+            <div class="flex  gap-0.5 text-green-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -215,13 +213,12 @@ const ClientReviews = () => {
               </svg>
             </div>
 
-            <p class="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p class="mt-1 text-lg font-medium text-gray-700">Mostofa Shahrier Nahin</p>
           </div>
         </div>
 
         <p class="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+        I can't recommend this web developer enough! They were incredibly skilled and were able to create a website that not only looked beautiful but also performed flawlessly. They were very patient with me throughout the process and took the time to explain everything to me in detail. If you're looking for a web developer, look no further!
         </p>
       </blockquote>
     </div>
