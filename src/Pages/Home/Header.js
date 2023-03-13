@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
-const Banner = () => {
+const Header = () => {
   return (
     <div>
       <div className="flex justify-center  bg-no-repeat  bg-cover h-full md:bg-center">
@@ -69,7 +69,7 @@ const Banner = () => {
                 <FaFacebookF className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaFacebookF>
               </a>
               <a
-                href="https://www.facebook.com/rafiulaanam/"
+                href="https://www.linkedin.com/in/rafiulaanam/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +77,7 @@ const Banner = () => {
                 <FaLinkedinIn className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaLinkedinIn>
               </a>
               <a
-                href="https://www.facebook.com/rafiulaanam/"
+                href="https://github.com/rafiulaanam"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ const Banner = () => {
                 <FaGithub className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaGithub>
               </a>
               <a
-                href="https://www.facebook.com/rafiulaanam/"
+                href="https://www.instagram.com/rafiulaanam/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -93,7 +93,7 @@ const Banner = () => {
                 <FaInstagram className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaInstagram>
               </a>
               <a
-                href="https://www.facebook.com/rafiulaanam/"
+                href="https://wa.me/8801701916034?text=Hello%2C%20Thanks%20for%20messaging%20me.%20How%20can%20I%20help%20you%20as%20a%20Full-stack%20Web%20Developer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ const Banner = () => {
                 <FaWhatsapp className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaWhatsapp>
               </a>
               <a
-                href="https://www.facebook.com/rafiulaanam/"
+                href="https://twitter.com/rafiulaanam"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -109,14 +109,14 @@ const Banner = () => {
                 <FaTwitter className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaTwitter>
               </a>
 
-              <a
+              {/* <a
                 href="https://www.facebook.com/rafiulaanam/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
                 <FaDribbble className=" bg-[#083f53] hover:bg-[#72E2AE] hover:text-[#01202C] rounded-full px-[10px] py-[11px] w-9 h-9 text-center"></FaDribbble>
-              </a>
+              </a> */}
             </div>
             <div className="flex mt-10 space-x-5">
               <button className="bg-white text-blue-900 px-6 py-2 hover:brightness-105 font-semibold">
@@ -133,4 +133,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Header;

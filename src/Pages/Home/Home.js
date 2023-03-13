@@ -3,32 +3,33 @@ import Title from "../../Components/Title";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import AboutMe from "./AboutMe/AboutMe";
-import Banner from "./Banner";
+import Header from "./Header";
 import ContactMe from "./ContactMe";
 import MyResume from "./MyResume";
 import MyServices from "./MyServices";
 import MySkills from "./MySkills";
+import ClientReviews from "./ClientReviews/ClientReviews";
+import LatestBlogs from "./LatestBlogs";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <Banner />
-      <Title title="about" mytitle="about me" />
+      <Header />
       <AboutMe />
       <Title title="skills" mytitle="my skills" />
-      <MySkills/>
-      <Title title="services" mytitle="my services" />
-      <MyServices/>
-      <Title title="resume" mytitle="my resume" />
-      <MyResume/>
+      <MySkills />
+
+      <MyServices />
+
+      <MyResume />
       <Title title="work" mytitle="my work" />
       <Title title="reviews" mytitle="client reviews" />
-      <Title title="blogs" mytitle="my blogs" />
-      <Title title="contact" mytitle="contact me" />
+      <ClientReviews />
+      <Title title="blogs" mytitle="latest blogs" />
+      <LatestBlogs />
 
-   
-      <ContactMe/>
+      <ContactMe />
       <Footer />
     </>
   );

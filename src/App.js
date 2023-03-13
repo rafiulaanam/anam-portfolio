@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Pages/Home/Home";
 
-import bg from "./Assets/bg3.png";
+import bg from "./Assets/bg1.png";
 
 function App() {
   return (

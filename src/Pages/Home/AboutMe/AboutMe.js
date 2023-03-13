@@ -1,10 +1,12 @@
 import React from "react";
 import Button from "../../../Components/Button/Button";
+import Title from "../../../Components/Title";
 import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
     <div>
+       <Title title="about" mytitle="about me" />
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
