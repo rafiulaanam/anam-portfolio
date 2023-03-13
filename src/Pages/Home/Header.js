@@ -7,7 +7,6 @@ import {
   FaInstagram,
   FaWhatsapp,
   FaTwitter,
-  FaDribbble,
 } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 

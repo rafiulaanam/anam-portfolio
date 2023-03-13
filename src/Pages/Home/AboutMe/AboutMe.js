@@ -73,7 +73,7 @@ const AboutMe = () => {
 
               <div className="mt-8">
                 {" "}
-               <a href="certificate.pdf" download={true}> <Button text="Download resume" /></a>
+               <a href="RAFIUL_ANAM_Resume.pdf" download={true}> <Button text="Download resume" /></a>
               </div>
             </div>
           </div>

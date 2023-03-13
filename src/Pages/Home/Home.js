@@ -10,6 +10,7 @@ import MyServices from "./MyServices";
 import MySkills from "./MySkills";
 import ClientReviews from "./ClientReviews/ClientReviews";
 import LatestBlogs from "./LatestBlogs";
+import MyWorks from "./MyWorks";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
 
       <MyResume />
       <Title title="work" mytitle="my work" />
+      <MyWorks/>
       <Title title="reviews" mytitle="client reviews" />
       <ClientReviews />
       <Title title="blogs" mytitle="latest blogs" />
