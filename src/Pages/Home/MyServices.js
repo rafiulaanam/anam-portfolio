@@ -16,7 +16,7 @@ const MyServices = () => {
             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
           </svg>
         </div>
-          <span class="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">01</span>
+          <span className="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">01</span>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font font-medium mb-3">Frontend Developer</h2>
@@ -37,7 +37,7 @@ const MyServices = () => {
             <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
           </svg>
         </div>
-           <span class="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">02</span>
+           <span className="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">02</span>
        </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font font-medium mb-3">Backend Developer</h2>
@@ -57,7 +57,7 @@ const MyServices = () => {
             <circle cx="12" cy="7" r="4"></circle>
           </svg>
         </div>
-           <span class="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">03</span>
+           <span className="text-5xl pr-1 font-bold ml-52 text-[rgba(238,238,238,0.22)]">03</span>
         </div>
         <div className="flex-grow">
           <h2 className="text-white text-lg title-font font-medium mb-3">MERN-stack Developer</h2>
