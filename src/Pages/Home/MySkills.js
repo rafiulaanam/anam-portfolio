@@ -1,8 +1,11 @@
 import React from "react";
 import SkillIcon from "../../Components/SkillIcon";
+import Title from "../../Components/Title";
 
 const MySkills = () => {
   return (
+    <>
+    <Title title="skills" mytitle="my skills" />
     <div className="flex container mx-auto justify-between flex-col md:flex-row items-center">
       <div className="grid grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 ">
 
@@ -48,6 +51,7 @@ const MySkills = () => {
     <img src="https://blush.design/api/download?shareUri=MA52zMZ6Rb_Z6nGI&c=Bottom_0%7E89c5cc-0.1%7E393f82-0.2%7E342a83-0.3%7E2b44ff_Hair_0%7E181658-0.1%7E2c1b18-0.2%7Ee8e1e1-0.3%7E2c1b18_Skin_0%7E915b3c-0.1%7Eb28b67-0.2%7Ed4a181-0.3%7E915b3c_Top_0%7Effa434-0.1%7Ea8e5ba-0.2%7Eff4133-0.3%7Ef2f2f2&w=800&h=800&fm=png" className="w-[100%]" alt=""/>
    </div>
     </div>
+    </>
     
   );
 };

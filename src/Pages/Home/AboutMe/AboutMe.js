@@ -5,7 +5,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div id="About">
        <Title title="about" mytitle="about me" />
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">

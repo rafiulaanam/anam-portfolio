@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Button from "../../../Components/Button/Button";
 import "./Navbar.css";
 // import {GiHamburgerMenu} from 'react-icons/gi'
@@ -7,52 +8,52 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="Header" spy={true} smooth={true} offset={-130} duration={1000}
           className="mr-3 hover-underline-animation  font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">01.</span> HOME
-        </a>
+        </Link>
       </li>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="About" spy={true} smooth={true} offset={-30} duration={1000}
           className="mr-3 hover-underline-animation font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">02.</span> ABOUT
-        </a>
+        </Link>
       </li>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="Resume" spy={true} smooth={true} offset={-30} duration={1000}
           className="mr-3 hover-underline-animation font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">03.</span> RESUME
-        </a>
+        </Link>
       </li>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="Work" spy={true} smooth={true} offset={-30} duration={1000}
           className="mr-3 hover-underline-animation font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">04.</span> WORK
-        </a>
+        </Link>
       </li>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="Blog" spy={true} smooth={true} offset={-30} duration={1000}
           className="mr-3 hover-underline-animation font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">05.</span> BLOG
-        </a>
+        </Link>
       </li>
       <li>
-        <a
-          href="!#"
+        <Link
+          to="Contact" spy={true} smooth={true} offset={-30} duration={1000}
           className="mr-3 hover-underline-animation font-medium text-sm text-white"
         >
           <span className="text-[#72E2AE]">06.</span> CONTACT
-        </a>
+        </Link>
       </li>
     </>
   );
@@ -86,7 +87,7 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <a href="!#" className="ml-3 text-5xl font-bold text-[#72E2AE]">
+          <a href="/" className="ml-3 text-5xl font-bold text-[#72E2AE]">
             ANAM.
           </a>
         </div>

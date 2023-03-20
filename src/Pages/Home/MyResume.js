@@ -5,7 +5,7 @@ import Title from "../../Components/Title";
 
 const MyResume = () => {
   return (
-    <div>
+    <div id="Resume">
       <Title title="resume" mytitle="my resume" />
       <div className="md:flex">
         {" "}

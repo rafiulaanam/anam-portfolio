@@ -9,10 +9,11 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div>
+    <div id="Header">
       <div className="flex justify-center  bg-no-repeat  bg-cover h-full md:bg-center">
         <div className="flex flex-col items-center ">
           <div className="flex flex-col justify-center items-center text-center  max-w-7xl   my-8 py-4 px-10">
@@ -118,12 +119,16 @@ const Header = () => {
               </a> */}
             </div>
             <div className="flex mt-10 space-x-5">
-              <button className="bg-white text-blue-900 px-6 py-2 hover:brightness-105 font-semibold">
+            <Link to="About" spy={true} smooth={true} offset={-30} duration={1000}>
+            <button className="bg-white text-blue-900 px-6 py-2 hover:brightness-105 font-semibold">
                 Read More
               </button>
-              <button className="bg-blue-900 text-white border-2 border-white px-6 py-2 hover:brightness-105 font-semibold">
+            </Link>
+            <Link to="Contact" spy={true} smooth={true} offset={-30} duration={1000}>
+            <button className="bg-blue-900 text-white border-2 border-white px-6 py-2 hover:brightness-105 font-semibold">
                 Contact Me
               </button>
+            </Link>
             </div>
           </div>
         </div>

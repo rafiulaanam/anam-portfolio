@@ -1,8 +1,10 @@
 import React from "react";
+import Title from "../../Components/Title";
 
 const MyWorks = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section id="Work" className="text-gray-600 body-font">
+      <Title title="work" mytitle="my work" />
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 md:w-1/3">
