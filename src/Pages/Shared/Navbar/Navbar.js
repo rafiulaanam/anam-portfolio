@@ -94,7 +94,12 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
-        <div className="navbar-end"><Button text='Hire me'/></div>
+        <div className="navbar-end">
+          <a href="https://www.linkedin.com/in/rafiulaanam/" target="_blank"   rel="noopener noreferrer">
+
+          <Button text='Hire me'/>
+          </a>
+          </div>
       </div>
     </>
   );
